@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gif</title>
+	<style type="text/css">
+		img{
+			border-radius: 50%;
+		}
+		#bulb2{
+			width: 194px;
+			height: 259px;
+		}
+		.myline{
+			float: left;
+			text-align: center;
+			margin-right: 50px;
+			margin-left: 50px;
+		}
+		.turnon{
+			background-color: green;
+			color: white;
+			text-decoration: bold;
+			border: none;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+		}
+		.turnoff{
+			background-color: red;
+			color: white;
+			text-decoration: bold;
+			border: none;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+		}
+	</style>
+	<script type="text/javascript" src="js.js"></script>
+
+</head>
+<body>
+
+	<img src="girl.gif">
+	<p id="text"></p>
+	<p id="go">abc</p>
+	<button onclick="date()">click to show date</button>
+	<p id="time"></p>
+	<p id="demo" >abc</p>
+	<button onclick="myfunction()">click me</button>
+	<br>
+	<!--light bulb-->
+	<div class="myline">
+		<h1>Make in Germany</h1>
+		<br>
+		<button onclick="document.getElementById('bulb').src ='on.jpg'" class="turnon">turn on</button>
+		<img id="bulb" src="off.jpg">
+		<button onclick="document.getElementById('bulb').src ='off.jpg'" class="turnoff">turn off</button>
+	</div>
+	<div class="myline">
+		<h1>Make in China</h1>
+		<br>
+		<button onclick="document.getElementById('bulb2').src ='on.gif'" class="turnon">turn on</button>
+		<img id="bulb2" src="off.jpg">
+		<button onclick="document.getElementById('bulb2').src ='off.jpg'" class="turnoff">turn off</button>
+	</div>
+	<div style="clear: both;"></div>
+	<p>alkdjfk</p>
+	<h4>fajs;dlks</h4>
+</body>
+</html>
